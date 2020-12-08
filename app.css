@@ -105,11 +105,17 @@ h1 {
 }
 
 select {
-    font-size: 1em;
+    font-size: 0.85em;
     padding: 5px 5px;
-    /* display: inline; */
 }
 
+/* .year-select {
+    display: inline;
+} */
+
+#year-select-start, #year-select-end {
+     display: inline;
+}
 
 #horse-rank-finish {
     width: 50%;
@@ -157,7 +163,10 @@ body {
     h1 {
         font-size: 2.5em;
     }
-    .year-label:nth-of-type(2),{
+    .year-label {
+        
+    }
+    #year-select-start, #year-select-end {
         display: block;
     }
 
